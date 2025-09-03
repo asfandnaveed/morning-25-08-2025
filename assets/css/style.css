@@ -1,0 +1,26 @@
+h1 {
+    color: brown;
+    background-color: aliceblue;
+    font-size: 55px;
+}
+
+.heading2 {
+    color: darkcyan;
+    background-color: beige;
+}
+
+table {
+    border: solid 3px aqua;
+}
+
+td,
+th {
+    border: solid 2px aqua;
+}
+
+
+.tbl,
+.tbl th,
+.tbl td {
+    border: solid 2px burlywood;
+}
