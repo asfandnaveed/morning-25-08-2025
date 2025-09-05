@@ -57,3 +57,31 @@ th {
     position: absolute;
 
 }
+.lhr_img{
+    border-radius: 15px;
+}
+.lhr_txt{
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    font-size: 30px;
+}
+
+.lhr_boundry{
+    position: relative;
+}
+
+.sample{
+    background-color: #00ffee;
+    width: 300px;
+    height: 4000px;
+}
+.p_fixed{
+    position: sticky;
+   top: 40px;
+    background-color: greenyellow;
+    border-radius: 100px;
+}
