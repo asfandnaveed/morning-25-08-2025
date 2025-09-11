@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Sansita";
+    src: url("../fonts/SansitaSwashed-VariableFont_wght.ttf");
+}
+.h-subheading{
+    color: #e9Bd8c;
+}
+
+.h-heading{
+    font-family: "Sansita";
+    font-size: 4rem;
+}
