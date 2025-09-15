@@ -1,14 +1,31 @@
-.bg-color{
+:root {
+    --bs-primary: #FF6000;
+    --bs-primaryclick: #b84700;
+}
+
+
+.btn-primary {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--bs-primaryclick) !important;
+    border-color: var(--bs-primaryclick) !important;
+}
+
+.bg-color {
     background-color: #FFEFE6;
 }
 
-.h-heading{
+.h-heading {
     font-size: 3.2rem;
     font-family: "Lexend";
     font-weight: 700;
     line-height: 1.1;
 }
 
-.h-color{
+.h-color {
     color: #FF6000;
 }
