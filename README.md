@@ -17,3 +17,7 @@ https://www.figma.com/design/5iAYzUUoSuHFKTxQnbvwQt/Food-Website-UI--Community--
 # Figma Burger Website design
 https://www.figma.com/design/PdG5rDOIxtjLZdLHk4oStl/Food-Website-UI-Design-Tutorial-in-Figma--Using-No-Cod--Community---Copy-?node-id=8-2&t=Sv8mf5qZ8iiQD6av-0
 
+----------------------------------------------------------------------
+# Figma Bean Scene Website design
+https://www.figma.com/design/pfQ0LnuAcJgq2s1mGr5Wmh/Bean-Scene-Coffee-Landingpage--Community---Copy-?node-id=0-1&p=f&t=R4dtRuiBfCSWBfwY-0
+
