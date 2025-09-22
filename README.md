@@ -21,3 +21,6 @@ https://www.figma.com/design/PdG5rDOIxtjLZdLHk4oStl/Food-Website-UI-Design-Tutor
 # Figma Bean Scene Website design
 https://www.figma.com/design/pfQ0LnuAcJgq2s1mGr5Wmh/Bean-Scene-Coffee-Landingpage--Community---Copy-?node-id=0-1&p=f&t=R4dtRuiBfCSWBfwY-0
 
+----------------------------------------------------------------------
+# Figma Food Hut Website design
+https://www.figma.com/design/i8rZcxefdAJgUsrpmklYCO/Food-Hut---Food-Ordering-Responsive-Design---Community-?node-id=0-1&p=f&t=ximpo4PI8MybnaCX-0
