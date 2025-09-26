@@ -24,3 +24,7 @@ https://www.figma.com/design/pfQ0LnuAcJgq2s1mGr5Wmh/Bean-Scene-Coffee-Landingpag
 ----------------------------------------------------------------------
 # Figma Food Hut Website design
 https://www.figma.com/design/i8rZcxefdAJgUsrpmklYCO/Food-Hut---Food-Ordering-Responsive-Design---Community-?node-id=0-1&p=f&t=ximpo4PI8MybnaCX-0
+
+----------------------------------------------------------------------
+# Figma Solar System Website design
+https://www.figma.com/design/6fU33jPArz9Lb4QuwTvXBq/3D-Interactive-Animation-For-UNIVERSE--Community---Community---Copy-?node-id=25-203&t=HnS5N1kA8PfReNEv-0
