@@ -28,3 +28,7 @@ https://www.figma.com/design/i8rZcxefdAJgUsrpmklYCO/Food-Hut---Food-Ordering-Res
 ----------------------------------------------------------------------
 # Figma Solar System Website design
 https://www.figma.com/design/6fU33jPArz9Lb4QuwTvXBq/3D-Interactive-Animation-For-UNIVERSE--Community---Community---Copy-?node-id=25-203&t=HnS5N1kA8PfReNEv-0
+
+----------------------------------------------------------------------
+# Figma Weather Website design
+https://www.figma.com/design/2sCSmKdNxPlvmfpZIpfpUZ/Weather-Web--Community-?node-id=0-1&p=f&t=LhrpLHf1iPFSJBFy-0
