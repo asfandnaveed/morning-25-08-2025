@@ -32,3 +32,7 @@ https://www.figma.com/design/6fU33jPArz9Lb4QuwTvXBq/3D-Interactive-Animation-For
 ----------------------------------------------------------------------
 # Figma Weather Website design
 https://www.figma.com/design/2sCSmKdNxPlvmfpZIpfpUZ/Weather-Web--Community-?node-id=0-1&p=f&t=LhrpLHf1iPFSJBFy-0
+
+----------------------------------------------------------------------
+# Figma Plated & Co Website design
+https://www.figma.com/design/UeNB7R0Xo0CfB55xOVrEDa/%F0%9F%8D%BD%EF%B8%8F-Plated---Co.-%E2%80%93-Premium-Restaurant-Website-Template--Community---Copy-?node-id=1-1863&p=f&t=46QAX7Z0FO6XMXW7-0
