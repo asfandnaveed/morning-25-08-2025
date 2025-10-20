@@ -36,3 +36,7 @@ https://www.figma.com/design/2sCSmKdNxPlvmfpZIpfpUZ/Weather-Web--Community-?node
 ----------------------------------------------------------------------
 # Figma Plated & Co Website design
 https://www.figma.com/design/UeNB7R0Xo0CfB55xOVrEDa/%F0%9F%8D%BD%EF%B8%8F-Plated---Co.-%E2%80%93-Premium-Restaurant-Website-Template--Community---Copy-?node-id=1-1863&p=f&t=46QAX7Z0FO6XMXW7-0
+
+WEB LINK
+
+https://drive.google.com/file/d/1jLiU2VQ-Z-5JmVSesNPJRhgk4MrbFRXA/view?usp=sharing
