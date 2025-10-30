@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="heading">Hello Students</h1>
+
+    
+
+    <button onclick="event1();">Click me</button>
+
+
+    <img id="chg-img" src="assets/images/Lahore.jpg" alt="">
+    <button onclick="changeImage();"> Change Image</button>
+    
+
+
+    <script>
+
+        function event1 (){
+
+            var x = 10;
+            let y = 30;
+            const z = 50;
+
+            var a = "Corvit";
+
+            document.getElementById('heading').innerHTML = x+a;
+            document.getElementById('heading').style.color = 'red';
+            document.getElementById('heading').style.fontSize = '60px';
+        }
+
+        function changeImage(){
+            document.getElementById('chg-img').src = 'assets/images/header.png';
+        }
+        
+
+    </script>
+</body>
+</html>
