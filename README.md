@@ -42,7 +42,6 @@ https://www.figma.com/design/UeNB7R0Xo0CfB55xOVrEDa/%F0%9F%8D%BD%EF%B8%8F-Plated
 https://www.figma.com/design/qPNGQuLBhxuX7QuFo0eLk0/Login-Page-Design--Community---Copy-?node-id=112-2&p=f&t=r4sl6L0IqFL2ff79-0
 
 ----------------------------------------------------------------------
-# Personal Portfolio Web Template
-https://drive.google.com/file/d/1VO2JHiAdOvWTX6jAqAe4FwtFCli2JGFf/view?usp=sharing
-
+# Admin Portal Web Template
+https://drive.google.com/file/d/1iNOnQXxvQ8eLLHvF6QKEs0S57zNiNaoM/view?usp=sharing
 
