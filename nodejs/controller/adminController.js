@@ -14,8 +14,8 @@ export const adminLogin = (req, res) => {
 
             const token = jwt.sign(
                 { 
-                    adminId:result[0].id,
-                    adminEmail:result[0].email
+                    id:result[0].id,
+                    email:result[0].email
                 } , 
                 process.env.JWT_KEY , 
                 {expiresIn:'1h'}

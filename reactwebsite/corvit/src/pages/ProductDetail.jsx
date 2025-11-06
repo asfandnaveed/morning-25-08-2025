@@ -84,7 +84,7 @@ const ProductDetail = () => {
 
               <div className="d-flex flex-wrap gap-3">
                 <button className="btn btn-buy-now px-5 py-3 rounded-pill fw-semibold">
-                  Buy Now
+                  Add to cart
                 </button>
                 <button className="btn btn-outline-secondary px-5 py-3 rounded-pill fw-semibold">
                   Add to Wishlist
