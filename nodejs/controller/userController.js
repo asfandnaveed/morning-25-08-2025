@@ -1,4 +1,5 @@
 import db from '../config/database.js';
+import jwt from 'jsonwebtoken';
 
 
 export const userLogin = (req, res) => {
@@ -6,12 +7,23 @@ export const userLogin = (req, res) => {
 
     const query = "SELECT * FROM users WHERE email=? AND `password`=?";
 
+
+
     db.query(query, [email, pass], (err, result) => {
 
+        const token = jwt.sign(
+            {
+                id: result[0].id,
+                email: result[0].email
+            },
+            process.env.JWT_KEY,
+            { expiresIn: '10h' }
+        );
         res.json({
-            status:true,
-            message:"User data",
-            user:result[0]
+            status: true,
+            message: "User data",
+            token:token,
+            user: result[0]
         });
     }
     );
@@ -22,18 +34,18 @@ export const userLogin = (req, res) => {
 
 export const registerUser = (req, res) => {
 
-    
 
-    const { name,email,password,dob,gender,phone,address} = req.body;
+
+    const { name, email, password, dob, gender, phone, address } = req.body;
 
     const checkEmailQuery = "SELECT * FROM users WHERE email= ?";
 
-    db.query(checkEmailQuery , [email] ,(err , result)=>{
+    db.query(checkEmailQuery, [email], (err, result) => {
 
-        if(result.length >0){
+        if (result.length > 0) {
             return res.json({
-                status:false,
-                message:"Email Already Exist"
+                status: false,
+                message: "Email Already Exist"
             });
         }
     });
@@ -41,19 +53,19 @@ export const registerUser = (req, res) => {
 
 
     const query = 'INSERT INTO users (name, email, `password`,dob,gender,phone_number,address,created_at) VALUE (?,?,?,?,?,?,?, NOW() )';
-    
-    db.query(query, [name,email,password,dob,gender,phone,address], (err, result)=>{
 
-        if(err){
+    db.query(query, [name, email, password, dob, gender, phone, address], (err, result) => {
+
+        if (err) {
             res.json({
-                status:false,
-                message:"Something went wrong!"
+                status: false,
+                message: "Something went wrong!"
             });
-        }else{
+        } else {
             res.json({
-                status:true,
-                message:"User Registered"
+                status: true,
+                message: "User Registered"
             });
         }
-    } );
+    });
 };

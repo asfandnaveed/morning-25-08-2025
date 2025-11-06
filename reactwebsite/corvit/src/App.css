@@ -341,3 +341,65 @@ body, html, #root {
     width: 100%;
   }
 }
+
+
+/* LOGIN MODAL  */
+
+/* Modal overlay */
+.modal-backdrop-custom {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+}
+
+/* Modal box */
+.login-modal {
+  background: #fff;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 420px;
+  position: relative;
+  animation: fadeInScale 0.3s ease-in-out;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Gradient text reused */
+.gradient-text {
+  background: linear-gradient(to right, #d69555, #e3b281);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Login button styling */
+.btn-login {
+  background: linear-gradient(to right, #d69555, #e3b281);
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+  background: linear-gradient(to right, #e3b281, #d69555);
+}
+
+/* Smooth fade */
+.modal.fade .modal-dialog {
+  transform: translateY(-50px);
+  transition: all 0.3s ease;
+}
+
