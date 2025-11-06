@@ -8,7 +8,11 @@ export const userLogin = (req, res) => {
 
     db.query(query, [email, pass], (err, result) => {
 
-        res.json(result);
+        res.json({
+            status:true,
+            message:"User data",
+            user:result[0]
+        });
     }
     );
 };

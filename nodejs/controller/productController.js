@@ -15,6 +15,24 @@ export const getProducts = (req,res)=>{
     });
 }
 
+export const getProductById = (req,res)=>{
+
+    const id = req.params.id;
+    const query = 'SELECT * FROM products WHERE id=?';
+    
+     db.query( query , [id], (err,result)=>{
+        res.json(
+            {
+                status:true , 
+                message:"All Products Data" , 
+                products:result[0]
+            });
+    });
+}
+
+
+
+
 export const addProduct = (req ,res)=>{
 
     const {name, description , price, stock , sku ,image } = req.body;

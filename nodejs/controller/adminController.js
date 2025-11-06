@@ -17,7 +17,7 @@ export const adminLogin = (req, res) => {
                     adminId:result[0].id,
                     adminEmail:result[0].email
                 } , 
-                '^#BHF&($HKBFBQA@!#@#*$&?HFNL' , 
+                process.env.JWT_KEY , 
                 {expiresIn:'1h'}
             );
 

@@ -17,7 +17,7 @@ function verifyToken(req, res, next) {
 
         try {
 
-            const data  = jwt.verify(token , '^#BHF&($HKBFBQA@!#@#*$&?HFNL');
+            const data  = jwt.verify(token , process.env.JWT_KEY);
 
             next();
 

@@ -5,6 +5,7 @@ import Navbar from './components/navbar/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Product from './pages/Product';
+import ProductDetail from './pages/ProductDetail';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element = {<About />} />
         <Route path='/product' element = {<Product />} />
+        <Route path='/product/detail/:id' element = {<ProductDetail />} />
 
       </Routes>
 
