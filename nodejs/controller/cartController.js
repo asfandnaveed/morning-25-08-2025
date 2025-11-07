@@ -2,6 +2,7 @@ import db from "../config/database.js";
 
 // ✅ Add item to cart
 export const addCartItems = (req, res) => {
+  
   const { productId, quantity } = req.body;
   const userId = req.user.id; 
 
@@ -23,7 +24,49 @@ export const addCartItems = (req, res) => {
     res.status(200).json({
       status: true,
       message: "Item added to cart successfully!",
-      cartId: result.insertId,
+      
     });
   });
+};
+
+
+export const getCartItems = (req , res)=>{
+
+  const userId = req.user.id;
+
+
+  const query = `SELECT c.product_id , c.quantity , p.id , p.name, p.image , p.price 
+  FROM cart c INNER JOIN products p ON c.product_id = p.id WHERE c.user_id= ?`;
+
+  db.query(query , [userId] , (err , result)=>{
+
+    if(err){
+
+      return res.status(500).json({
+        status:false,
+        message:"Server Error !"
+      });
+    }
+
+    if(result.length ==0){
+
+      return res.json({
+        status:true,
+        message:"Cart is Empty"
+      });
+    }
+    else{
+      return res.json({
+        status:true,
+        message:"Cart data",
+        cart: result
+      });
+    }
+
+
+
+  });
+
+
+
 };
