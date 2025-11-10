@@ -455,3 +455,64 @@ body, html, #root {
 }
 
 
+/* LOGIN PAGE  */
+
+
+/* Full-page gradient background */
+.login-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  animation: backgroundShift 10s ease-in-out infinite alternate;
+}
+
+/* Smooth color transition animation */
+@keyframes backgroundShift {
+  0% {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+  }
+  100% {
+    background: linear-gradient(135deg, #6610f2, #007bff);
+  }
+}
+
+/* Login card styling */
+.login-card {
+  width: 380px;
+  background: white;
+  border-radius: 15px;
+  animation: fadeInUp 1s ease;
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animated button hover effect */
+.animated-btn {
+  transition: all 0.3s ease;
+  background: linear-gradient(90deg, #007bff, #6610f2);
+  border: none;
+}
+
+.animated-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(102, 16, 242, 0.4);
+}
+
+/* Form labels and inputs */
+.form-label {
+  color: #333;
+}
+
+.form-control:focus {
+  border-color: #6610f2;
+  box-shadow: 0 0 5px rgba(102, 16, 242, 0.3);
+}
