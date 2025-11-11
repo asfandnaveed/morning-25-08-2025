@@ -42,6 +42,6 @@ https://www.figma.com/design/UeNB7R0Xo0CfB55xOVrEDa/%F0%9F%8D%BD%EF%B8%8F-Plated
 https://www.figma.com/design/qPNGQuLBhxuX7QuFo0eLk0/Login-Page-Design--Community---Copy-?node-id=112-2&p=f&t=r4sl6L0IqFL2ff79-0
 
 ----------------------------------------------------------------------
-# Admin Portal Web Template
-https://drive.google.com/file/d/1iNOnQXxvQ8eLLHvF6QKEs0S57zNiNaoM/view?usp=sharing
+# Chat Web Template
+https://www.figma.com/design/oyZftwBtWp3U34AZ1beeGJ/Chat-Web-UI-Kit--Community---Copy-?node-id=10042-1&p=f&t=sXgeJZsqGKVEjNXI-0
 
