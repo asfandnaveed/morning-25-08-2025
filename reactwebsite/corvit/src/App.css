@@ -516,3 +516,134 @@ body, html, #root {
   border-color: #6610f2;
   box-shadow: 0 0 5px rgba(102, 16, 242, 0.3);
 }
+
+
+/* ADMIN CHAT  */
+
+.chat-app {
+  height: 100vh;
+  background: #fff;
+}
+
+/* Sidebar */
+.chat-sidebar {
+  width: 320px;
+  border-right: 1px solid #dee2e6;
+  background-color: #ffffff;
+}
+
+.sidebar-header {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.search-bar {
+  border-radius: 25px;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.chat-item {
+  transition: background 0.2s ease;
+  cursor: pointer;
+}
+
+.chat-item:hover {
+  background-color: #f8f9fa;
+}
+
+.chat-item.active {
+  background-color: #f1f3f5;
+}
+
+.chat-item small {
+  font-size: 13px;
+}
+
+/* Chat Window */
+.chat-window {
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  background: #fff;
+}
+
+.chat-body {
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Message Styles */
+.message {
+  max-width: 75%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  position: relative;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.message.sent {
+  align-self: flex-end;
+  background-color: #e6f1ff;
+  color: #000;
+  border-top-right-radius: 0;
+}
+
+.message.received {
+  align-self: flex-start;
+  background-color: #f0f0f0;
+  color: #000;
+  border-top-left-radius: 0;
+}
+
+.message .time {
+  display: block;
+  font-size: 12px;
+  color: #999;
+  margin-top: 4px;
+  text-align: right;
+}
+
+/* Input Footer */
+.chat-footer {
+  background: #fff;
+}
+
+.message-input {
+  border-radius: 25px;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.send-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Scrollbar */
+.chat-body::-webkit-scrollbar,
+.chat-list::-webkit-scrollbar {
+  width: 6px;
+}
+.chat-body::-webkit-scrollbar-thumb,
+.chat-list::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .chat-sidebar {
+    display: none;
+  }
+  .chat-app {
+    flex-direction: column;
+  }
+}

@@ -1,24 +1,41 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../App.css";
-import { createUserWithEmailAndPassword } from "firebase/auth";
+import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../Firebase";
+import { useNavigate } from "react-router-dom";
 
 function FirebaseLogin() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+  const navigate = useNavigate();
+
+  useEffect(() => {
+
+    onAuthStateChanged(auth, (user) => {
+
+      if (user) {
+        navigate('/chat')
+      }
+    });
+
+  }, []);
+
+
+
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    try{
+    try {
 
-        const data  = await createUserWithEmailAndPassword(auth , email , password);
+      const data = await signInWithEmailAndPassword(auth, email, password);
 
-        console.log(data.user);
+      console.log(data.user);
 
-    }catch(e){
-        console.log('Error : '+e);
+    } catch (e) {
+      console.log('Error : ' + e);
     }
 
 
@@ -63,7 +80,7 @@ function FirebaseLogin() {
         </form>
 
         <div className="mt-4 text-center small text-muted">
-          © {new Date().getFullYear()} 
+          © {new Date().getFullYear()}
         </div>
       </div>
     </div>

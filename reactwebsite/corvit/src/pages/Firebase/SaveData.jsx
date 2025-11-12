@@ -1,4 +1,4 @@
-import { ref, set } from "firebase/database";
+import { onValue, ref, set } from "firebase/database";
 import { db } from "../../Firebase";
 
 
@@ -22,9 +22,22 @@ function SaveData(){
 
     }
 
+    const getData = ()=>{
+
+        const node  = ref(db , 'Users/user1');
+
+        onValue (node , (snapshot)=>{
+
+            console.log (snapshot.val());
+        });
+
+    }
+
     return(
         <div>
             <button className="btn btn-warning" onClick={handleData}> Save Data</button>
+
+            <button className="btn btn-warning" onClick={getData}> Get Data</button>
         </div>
     );
 

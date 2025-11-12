@@ -8,6 +8,7 @@ import Product from './pages/Product';
 import ProductDetail from './pages/ProductDetail';
 import FirebaseLogin from './pages/Firebase/Login';
 import SaveData from './pages/Firebase/SaveData';
+import AdminChat from './pages/AdminChat';
 
 
 function App() {
@@ -15,10 +16,11 @@ function App() {
 
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
 
-        <Route path='/' element={<SaveData />} />
+        <Route path='/' element={<FirebaseLogin />} />
+        <Route path='/chat' element={<AdminChat />} />
         <Route path='/about' element = {<About />} />
         <Route path='/product' element = {<Product />} />
         <Route path='/product/detail/:id' element = {<ProductDetail />} />
