@@ -9,6 +9,7 @@ import ProductDetail from './pages/ProductDetail';
 import FirebaseLogin from './pages/Firebase/Login';
 import SaveData from './pages/Firebase/SaveData';
 import AdminChat from './pages/AdminChat';
+import FirebaseRegister from './pages/Firebase/FirebaseRegister';
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
       <Routes>
 
         <Route path='/' element={<FirebaseLogin />} />
+        <Route path='/login' element={<FirebaseLogin />} />
+        <Route path="/register" element={<FirebaseRegister />} />
         <Route path='/chat' element={<AdminChat />} />
         <Route path='/about' element = {<About />} />
         <Route path='/product' element = {<Product />} />

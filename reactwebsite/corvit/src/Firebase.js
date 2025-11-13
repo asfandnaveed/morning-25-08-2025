@@ -7,7 +7,7 @@ import { getDatabase } from "firebase/database";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-
+  
 };
 
 // Initialize Firebase
