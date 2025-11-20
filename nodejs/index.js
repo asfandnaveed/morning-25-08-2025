@@ -8,6 +8,9 @@ import productRoute from './routes/productRoutes.js';
 import userRoute from './routes/userRoutes.js';
 import adminRoutes from './routes/adminRoutes.js';
 import cartRoutes from './routes/cartRoutes.js';
+import paymentRoutes from './routes/paymentRoutes.js';
+
+
 
 
 const app = express();
@@ -28,6 +31,8 @@ app.use('/api/user', userRoute);
 app.use('/api/admin' , adminRoutes);
 
 app.use("/api/cart", cartRoutes); 
+
+app.use("/api/payment", paymentRoutes); 
 
 
 
