@@ -45,3 +45,7 @@ https://www.figma.com/design/qPNGQuLBhxuX7QuFo0eLk0/Login-Page-Design--Community
 # Chat Web Template
 https://www.figma.com/design/oyZftwBtWp3U34AZ1beeGJ/Chat-Web-UI-Kit--Community---Copy-?node-id=10042-1&p=f&t=sXgeJZsqGKVEjNXI-0
 
+----------------------------------------------------------------------
+# Assignments
+https://drive.google.com/drive/folders/17hQ9cNLa7kALRrIDUHpwyiIg9f5at6I2?usp=sharing
+
