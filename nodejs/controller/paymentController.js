@@ -1,16 +1,12 @@
-import Stripe from "stripe"
+import Stripe from "stripe";
 
 
 
 export const createPayment =async (req ,res) =>{
 
 
-<<<<<<< HEAD
-    const payment = Stripe('');
-    
-=======
     const payment = Stripe('sk_test_1un8Loa2pSXJdrVVvwP3KtPc00eBNpfQcI');
->>>>>>> parent of 57c0104 (changes)
+    
 
     const {price} = req.body;
 
