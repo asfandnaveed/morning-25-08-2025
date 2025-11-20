@@ -5,7 +5,7 @@ import Stripe from "stripe"
 export const createPayment =async (req ,res) =>{
 
 
-    const payment = Stripe('sk_test_1un8Loa2pSXJdrVVvwP3KtPc00eBNpfQcI');
+    const payment = Stripe('');
 
     const {price} = req.body;
 
