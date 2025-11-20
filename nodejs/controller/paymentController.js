@@ -6,6 +6,7 @@ export const createPayment =async (req ,res) =>{
 
 
     const payment = Stripe('');
+    
 
     const {price} = req.body;
 
