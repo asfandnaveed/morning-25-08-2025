@@ -156,7 +156,6 @@ function ChatApp() {
                     <button
                         className="btn btn-outline-danger btn-sm"
                         onClick={handleLogout}
-                        
                     >
                         Logout
                     </button>
